@@ -1,0 +1,34 @@
+# Dependências
+node_modules/
+
+# Variáveis e segredos
+.env
+.env.*
+!.env.example
+
+# Sessão do WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Logs
+logs/
+*.log
+
+# Temporários
+temp/
+tmp/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Dados locais
+dados/
+*.db
+*.db-shm
+*.db-wal
+
