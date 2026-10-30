@@ -7,6 +7,7 @@
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
     "listar-grupos": "node scripts/listar-grupos.js",
+    "teste-mensagem": "node scripts/teste-mensagem.js",
     "postinstall": "node scripts/corrigir-inject-whatsapp.cjs"
   },
   "keywords": [
